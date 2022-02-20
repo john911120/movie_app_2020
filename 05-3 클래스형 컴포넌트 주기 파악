@@ -1,0 +1,2 @@
+생명주기 함수의 종류는 다양하지만 클론코딩에서는
+constructor() , componentDidMount(), componentDidUpdate(), componentWillUnmount()를 소개한다.
