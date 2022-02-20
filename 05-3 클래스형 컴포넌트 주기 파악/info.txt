@@ -1,0 +1,9 @@
+생명주기 함수의 종류는 다양하지만 클론코딩에서는
+constructor() , componentDidMount(), componentDidUpdate(), componentWillUnmount()를 소개한다.
+
+constructor() : 생명주기 함수는 아니지만 클래스형 컴포넌트가 생성되었을 때 호출이 되는 함수이다.
+componentDidMount() : 마운트로 분류하는 생명주기 함수중 하나이다. render, constructor()
+
+componentDidUpdate() : 화면이 업데이트 되면 실행되는 함수이다. 
+
+componentWillUnmount() : 컴포넌트가 사망할때 사용하며, 보통 컴포넌트에 적용된 이벤트 리스너를 제거할 때 많이 사용된다.
