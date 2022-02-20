@@ -1,0 +1,6 @@
+state는 단순한 객체이다. 하지만 리액트에서는 특별하게 다루게 된다. 
+그래서 자바스크립트에서 사용한 방법대로 가면 작성하지 말라고 경고를 받게된다.
+경고내용은 "Do not mutate state directly. Use setState()"이다.
+
+이유 : 리액트에서는 state가 변경되면 render()를 다시 실행해서 변경된 state를 춣력하게 해준다.
+       하지만 state를 직접 변경하는 경우에는 render()를 재호출하지 않는다.
